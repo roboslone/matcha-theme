@@ -1,3 +1,5 @@
+> This repository is a maintained fork of [fullstacklabXD/matcha-theme](https://github.com/fullstacklabXD/matcha-theme). It preserves the original Matcha Ceremony theme identities, restores the packaged theme assets, and removes the old welcome/runtime code so the extension behaves as a theme-only VS Code package.
+
 <div
   align="center"
   style="
@@ -82,7 +84,7 @@
       <span style="color:#EDBFB9;">Accessible for hours of work</span>
     </div>
     <div style="margin: 19px 0 0 0;">
-      <a href="https://marketplace.visualstudio.com/items?itemName=matcha-ceremony-theme" target="_blank"
+      <a href="https://marketplace.visualstudio.com/items?itemName=roboslone.matcha-ceremony-theme-fork" target="_blank"
         style="
           display:inline-block;
           background:linear-gradient(88deg,#7D9B76 40%,#C3CEB2 100%);
@@ -166,7 +168,6 @@
 </div>
 <!-- /Gallery Section --------------------------->
 
-
 <div align="center" style="margin: 0 0 23px 0;">
   <div style="
     display: inline-block;
@@ -206,14 +207,14 @@
 
 ## 🎨 Theme Variants
 
-| Theme | Description |
-|-------|-------------|
-| **Matcha Ceremony** | Main theme — balanced and universal |
-| **Matcha Ceremony Dawn** | Morning — warmer and softer |
-| **Matcha Ceremony Dusk** | Evening — saturated and deep |
-| **Matcha Ceremony Midnight** | Night — deep and high contrast |
-| **Matcha Ceremony Zen** | Minimal — ultra-muted, low contrast |
-| **Matcha Ceremony Sakura** | Spring — with cherry blossom pink accents |
+| Theme                        | Description                               |
+| ---------------------------- | ----------------------------------------- |
+| **Matcha Ceremony**          | Main theme — balanced and universal       |
+| **Matcha Ceremony Dawn**     | Morning — warmer and softer               |
+| **Matcha Ceremony Dusk**     | Evening — saturated and deep              |
+| **Matcha Ceremony Midnight** | Night — deep and high contrast            |
+| **Matcha Ceremony Zen**      | Minimal — ultra-muted, low contrast       |
+| **Matcha Ceremony Sakura**   | Spring — with cherry blossom pink accents |
 
 ## 📦 Installation
 
@@ -239,24 +240,24 @@
 
 ### Main Colors
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| 🍵 Matcha | `#7D9B76` | Keywords, accents |
-| 🎋 Young Bamboo | `#A4C49B` | Booleans, success |
-| 📜 Rice Paper | `#E8DCC4` | Strings |
-| 💜 Wisteria | `#B8A9C9` | Numbers, decorators |
-| 🌊 Sea Foam | `#8FA8A0` | Functions |
-| 🏺 Celadon | `#7BA3A3` | Types, classes |
-| ✨ Kintsugi | `#C9B896` | Constants, parameters |
+| Color           | Hex       | Usage                 |
+| --------------- | --------- | --------------------- |
+| 🍵 Matcha       | `#7D9B76` | Keywords, accents     |
+| 🎋 Young Bamboo | `#A4C49B` | Booleans, success     |
+| 📜 Rice Paper   | `#E8DCC4` | Strings               |
+| 💜 Wisteria     | `#B8A9C9` | Numbers, decorators   |
+| 🌊 Sea Foam     | `#8FA8A0` | Functions             |
+| 🏺 Celadon      | `#7BA3A3` | Types, classes        |
+| ✨ Kintsugi     | `#C9B896` | Constants, parameters |
 
 ### Background Colors
 
-| Theme | Main Background | Sidebar |
-|-------|-----------------|---------|
-| Main | `#1D1F1B` | `#161814` |
-| Dawn | `#242721` | `#1D201A` |
-| Dusk | `#141613` | `#0F110E` |
-| Midnight | `#0A0B09` | `#060706` |
+| Theme    | Main Background | Sidebar   |
+| -------- | --------------- | --------- |
+| Main     | `#1D1F1B`       | `#161814` |
+| Dawn     | `#242721`       | `#1D201A` |
+| Dusk     | `#141613`       | `#0F110E` |
+| Midnight | `#0A0B09`       | `#060706` |
 
 ## ✨ Features
 
@@ -291,12 +292,12 @@ The theme is optimized for:
 
 ```json
 {
-    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "editor.lineHeight": 1.6,
-    "editor.semanticHighlighting.enabled": true,
-    "editor.bracketPairColorization.enabled": true
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true
 }
 ```
 
@@ -307,11 +308,15 @@ Found an issue or have an improvement idea?
 1. Create an **Issue** with description
 2. Or submit a **Pull Request**
 
-## 👤 Author & Publisher
+## 👤 Attribution
 
-**fullstacklabXD**
+Original theme author: **fullstacklabXD**
 
-- GitHub: [@fullstacklabXD](https://github.com/fullstacklabXD/matcha-theme)
+- Original repository: [fullstacklabXD/matcha-theme](https://github.com/fullstacklabXD/matcha-theme)
+
+Fork maintainer: **roboslone**
+
+- Fork repository: [roboslone/matcha-theme](https://github.com/roboslone/matcha-theme)
 
 ## 📄 License
 
@@ -324,6 +329,7 @@ Copyright (c) 2026 fullstacklabXD
 Inspired by Japanese tea ceremony aesthetics, wabi-sabi philosophy, and tatami rooms.
 
 The color palette draws from:
+
 - 🍵 Ceremonial matcha powder
 - 🎋 Bamboo whisks and tea utensils
 - 📜 Traditional washi paper
@@ -334,4 +340,4 @@ The color palette draws from:
 
 **Made with 🍵 and ❤️**
 
-*"In tea ceremony, harmony (wa), respect (kei), purity (sei), and tranquility (jaku) guide every movement."*
+_"In tea ceremony, harmony (wa), respect (kei), purity (sei), and tranquility (jaku) guide every movement."_

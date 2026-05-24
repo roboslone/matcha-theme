@@ -7,6 +7,15 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.0.1] - 2026-05-24
+
+### Fork Maintenance
+
+- Restored the packaged `themes/` and `src/` assets from the published 1.0.0 extension build
+- Removed the welcome command, welcome view content, and runtime entrypoint so the package is theme-only
+- Fixed the remote-host installation behavior by dropping executable extension code from the manifest
+- Added explicit fork attribution to the original author, `fullstacklabXD`, and the original repository
+
 ## [1.0.0] - 2026-01-22
 
 ### Release Highlights

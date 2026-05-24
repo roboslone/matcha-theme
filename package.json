@@ -1,30 +1,19 @@
 {
-    "name": "matcha-ceremony-theme",
+    "name": "matcha-ceremony-theme-fork",
     "version": "1.0.0",
-    "displayName": "Matcha Ceremony",
-    "description": "Zen-inspired theme with muted matcha greens and warm rice paper tones",
-    "publisher": "fullstacklabXD",
+    "displayName": "Matcha Ceremony Fork",
+    "description": "Maintained fork of fullstacklabXD's Matcha Ceremony theme with restored assets and theme-only packaging.",
+    "publisher": "roboslone",
     "author": {
-        "name": "fullstacklabXD",
-        "url": "https://github.com/fullstacklabXD/matcha-theme"
+        "name": "roboslone",
+        "url": "https://github.com/roboslone/matcha-theme"
     },
     "license": "MIT",
-    "main": "welcome.js",
-    "activationEvents": 
-    ["onCommand:matchaCeremony.showWelcome"],
     "engines": {
         "vscode": "^1.60.0"
     },
     "categories": [
-        "Themes",
-        "Color Themes",
-        "Dark Themes",
-        "UI Design",
-        "Programming Languages",
-        "Japan",
-        "Minimalism",
-        "Aesthetics",
-        "Popular"
+        "Themes"
     ],
     "keywords": [
         "matcha-ceremony",
@@ -38,52 +27,13 @@
         "zen",
         "wabi-sabi",
         "japan",
-        "oriental",
-        "asian",
         "minimal",
-        "minimalist",
         "calm",
         "earthy",
-        "washi-paper",
-        "tatami",
-        "soothing",
-        "serene",
         "balanced",
         "natural",
         "modern",
-        "dark",
-        "theme",
-        "color-theme",
-        "color scheme",
-        "vscode",
-        "syntax",
-        "highlighting",
-        "highlight",
-        "rainbow brackets",
-        "developer",
-        "programming",
-        "frontend",
-        "backend",
-        "typescript",
-        "javascript",
-        "python",
-        "rust",
-        "html",
-        "css",
-        "markdown",
-        "json",
-        "yaml",
-        "coding",
-        "focus",
-        "concentration",
-        "palette",
-        "unique",
-        "popular",
-        "editors",
-        "relaxing",
-        "cherry blossom",
-        "Japanese culture",
-        "colorful"
+        "dark"
     ],
     "icon": "src/icon.png",
     "galleryBanner": {
@@ -92,26 +42,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fullstacklabXD/matcha-theme"
+        "url": "https://github.com/roboslone/matcha-theme"
     },
     "bugs": {
-        "url": "https://github.com/fullstacklabXD/matcha-theme/issues"
+        "url": "https://github.com/roboslone/matcha-theme/issues"
     },
-    "homepage": "https://github.com/fullstacklabXD/matcha-theme#readme",
+    "homepage": "https://github.com/roboslone/matcha-theme#readme",
     "contributes": {
-        "commands": [
-            {
-                "command": "matchaCeremony.showWelcome",
-                "title": "Matcha Ceremony: Open Welcome Page"
-            }
-        ],
-        "viewsWelcome": [
-            {
-                "view": "explorer",
-                "contents": "# 🍵 Matcha Ceremony\n\nWelcome to the zen-inspired theme.\n\nMuted matcha greens and warm rice paper tones create an atmosphere for focused work.\n\n**Theme variants:** Matcha Ceremony, Dawn, Dusk, Midnight, Zen, Sakura — choose in color theme settings.\n\n[Open Folder](command:vscode.openFolder)",
-                "when": "workspaceEmpty"
-            }
-        ],
         "themes": [
             {
                 "label": "Matcha Ceremony",
